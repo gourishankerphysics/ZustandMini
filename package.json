@@ -1,0 +1,44 @@
+{
+  "name": "zustand",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^7.17.1",
+    "@react-three/fiber": "^7.0.17",
+    "cra-template": "1.1.2",
+    "d3": "^7.1.1",
+    "plotly.js": "^2.4.2",
+    "plotly.js-gl3d-dist-min": "^2.6.0",
+    "react": "^17.0.2",
+    "react-d3-library": "^1.1.8",
+    "react-dom": "^17.0.2",
+    "react-plotly.js": "^2.4.2",
+    "react-scripts": "4.0.3",
+    "three": "^0.133.1",
+    "zustand": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
