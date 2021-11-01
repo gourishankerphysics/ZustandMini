@@ -18,7 +18,7 @@ function App() {
           <ViewportCanvas style={{ height: 300 }}></ViewportCanvas>
         </Canvas>
       </div> */}
-      <TwoDPlot></TwoDPlot>
+      <PropertiesPanel></PropertiesPanel>
     </div>
   );
 }
