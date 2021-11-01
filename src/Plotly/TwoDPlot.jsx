@@ -1,16 +1,20 @@
 import createPlotlyComponent from "react-plotly.js/factory";
-import Plotly from "plotly.js-gl3d-dist-min";
+import Plotly from "plotly.js";
 const Plot = createPlotlyComponent(Plotly);
 
 const TwoDPlot = () => {
   const z_data = [];
   for (let i = 0; i < 24; i++) {
-    z_data.push([0, 1, 2, 3, 4, 5]);
+    const b = [];
+    for (let j = 0; j < 50; j++) {
+      b.push(Math.sin(0.05 * j));
+    }
+    z_data.push(b);
   }
   const data = [
     {
       z: z_data,
-      type: "surface",
+      type: "heatmap",
     },
   ];
   const layout = {
@@ -25,7 +29,9 @@ const TwoDPlot = () => {
       t: 90,
     },
   };
-  return <Plot data={data} layout={layout}></Plot>;
+  return (
+    <Plot data={data} layout={layout} config={{ displaylogo: false }}></Plot>
+  );
 };
 
 export default TwoDPlot;
