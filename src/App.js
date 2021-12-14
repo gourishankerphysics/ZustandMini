@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       <PropertiesPanel></PropertiesPanel>
       <div style={{ color: "red", marginTop: 100, height: 500 }}>
-        {/* <Canvas
+        <Canvas
           style={{ backgroundColor: "#666666" }}
           pixelRatio={window.devicePixelRatio}
           camera={{ position: [0, 10, 0] }}
         >
           <ViewportCanvas style={{ height: 300 }}></ViewportCanvas>
-        </Canvas> */}
+        </Canvas>
       </div>
     </div>
   );
