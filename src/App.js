@@ -8,17 +8,16 @@ import TwoDPlot from "./Plotly/TwoDPlot";
 function App() {
   return (
     <div className="App">
-      {/* <PropertiesPanel></PropertiesPanel>
+      <PropertiesPanel></PropertiesPanel>
       <div style={{ color: "red", marginTop: 100, height: 500 }}>
-        <Canvas
+        {/* <Canvas
           style={{ backgroundColor: "#666666" }}
           pixelRatio={window.devicePixelRatio}
           camera={{ position: [0, 10, 0] }}
         >
           <ViewportCanvas style={{ height: 300 }}></ViewportCanvas>
-        </Canvas>
-      </div> */}
-      <PropertiesPanel></PropertiesPanel>
+        </Canvas> */}
+      </div>
     </div>
   );
 }

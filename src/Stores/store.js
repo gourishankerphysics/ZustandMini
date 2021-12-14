@@ -13,6 +13,7 @@ const useStore = create(
       })),
     setValue2: (newVal) =>
       set((state) => ({
+        value1: newVal,
         value2: newVal,
       })),
 
