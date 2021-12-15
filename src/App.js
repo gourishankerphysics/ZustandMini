@@ -1,5 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
+import SideDrawer from "./Components/Drawer";
 import PropertiesPanel from "./Components/PropertiesPanel";
 
 import ViewportCanvas from "./Components/ViewportCanvas";
@@ -18,6 +19,7 @@ function App() {
           <ViewportCanvas style={{ height: 300 }}></ViewportCanvas>
         </Canvas>
       </div>
+      <SideDrawer />
     </div>
   );
 }
